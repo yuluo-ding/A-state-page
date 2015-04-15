@@ -1,0 +1,124 @@
+body,p,ul,li,button,input{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+i{
+    font-style: normal;
+}
+
+.w-1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+.ucenter .ucenter-left{
+    float: left;
+    width: 226px;
+    min-height: 760px;
+    background-color: white;
+}
+.ucenter-left .ucenter-l-header{
+    margin: 20px;
+    text-align: center;
+}
+.ucenter-l-header .ucenter-headericon{
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+}
+.ucenter-l-header .ucenter-headericon img{
+    border-radius: 70px;
+}
+.ucenter-l-header .ucenter-name{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.2em;
+}
+.ucenter-l-header .ucenter-viptime{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.orinagebtn{
+    border: 1px solid#ff7600;
+    color: #ff7600;
+    padding: 5px 20px ;
+    border-radius: 5px;
+}
+.orinagebtn:hover{
+    background-color: #ff7600;
+    color: black;
+}
+.ucenter-left .ucenter-l-column{
+    margin: 30px;
+    display: inline-block;
+}
+.ucenter-l-column .ucenter-l-column-block li{
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 16px;
+    text-align: center;
+}
+.ucenter-l-column .ucenter-l-column-block li:hover, .ucenter-l-column .ucenter-l-column-block li.active{
+    background-color: #f1f1f1;
+    border-radius: 2px;
+}
+.ucenter-l-column .ucenter-l-column-block li a{
+    color: black;
+}
+
+.ucenter-right{
+    float: right;
+    width: 750px;
+    min-height:760px;
+    background-color: white;
+}
+.ucenter-right .ucenter-r-nav{
+    height: 44px;
+    border-bottom: 2px solid #f1f1f1;
+}
+.ucenter-r-nav .ucenter-r-nav-g{
+    padding-left: 10px;
+    line-height: 44px;
+}
+.ucenter-r-nav .ucenter-r-nav-g span{
+    padding-left: 10px;
+    font-size: 18px;
+    color: #101213;
+    border-left: 2px solid#1dd243;
+}
+.ucenter-right .ucenter-r-content{
+    padding: 20px;
+    height: auto;
+    display: inline-block;
+
+}
+
+
+.green-btn{
+    border: 1px solid #1de37b;
+    color: #1de37b;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.ucenter-right .gvip-btn{
+    margin-top: 40px;
+}
+
+.green-btn:hover{
+    background-color: green;
+    color:white;
+}
